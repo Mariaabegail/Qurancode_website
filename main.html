@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Color Changer</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <script src="js/gen.js"></script>
+</head>
+<body>
+    <div class="super-con">
+        <div>
+            <a href="index.html"><button class="exit">
+                <span>Exit</span>
+            </button></a>
+        </div>
+        <a href="index.html"><button class="exit">
+            <span>Exit</span>
+        </button></a>
+        <h2 class="h2">Motorbike Color Changer</h2>
+        <div class="super-con">
+            <div>
+                <div class="conts">
+                    <img src="images/motorcycle.png" alt="motorcycle.png" class="home-pic">
+                </div>
+                <div class="gen">
+                    <h4>Generate Random Color</h4>
+                    <button onclick="generate()" class="btn-gen">
+                        <span>Generate</span>
+                    </button>
+                </div>
+            </div>
+            <h4 class="gen1">Generate Specific Color</h4>
+            <div class="super-con">
+                <select name="colors" class="container">
+                    <option id="blue"  value="blue">Blue</option>
+                    <option id="gray" value="gray">Gray</option>
+                    <option id="pink" value="pink">Pink</option>
+                    <option id="green" value="green">Green</option>
+                    <option id="orange" value="orange">Orange</option>
+                    <option id="violet" value="violet">Violet</option>
+                    <option id="brown" value="brown">Brown</option>
+                    <option id="black" value="black">Black</option>
+                </select>
+                <div class="super-con">
+                    <button class="show" onclick="show()">
+                        <span>SHOW</span>
+                    </button>
+                    <button class="reset" onclick="reset()">
+                        <span>RESET</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+        
+    </div> 
+</body>
+</html>
